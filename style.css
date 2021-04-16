@@ -1,0 +1,261 @@
+/* **************************************************** */
+/* Body styles                                          */
+/* **************************************************** */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+    
+    font-family: sans-serif;
+}
+
+/* **************************************************** */
+/* Menu styles                                          */
+/* **************************************************** */
+
+
+#menu{
+    /*background: rgb(0,100,0);*/
+    background: #6E6E6E;
+    text-align: center;
+}
+
+#menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+#menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.active, #menu ul li:hover{
+    background: #D8D8D8;
+    border-radius: 3px;
+}
+
+#menu lu li:hover{
+    background: #D8D8D8;
+    
+}
+
+#menu .fa{
+   */ margin-right: 8px; */
+}
+
+
+.sub-menu1{
+    display: none;
+}
+
+#menu ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    background: #D8D8D8;
+    margin-top: 15px;
+    margin-left: -15px,
+}
+
+#menu ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 10px;
+}
+
+#menu ul li:hover .sub-menu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #ffffff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+#menu ul li:hover .sub-menu1 ul li:last-child{
+    border-bottom: none,
+}
+
+#menu ul li:hover .sub-menu1 ul li a:hover{
+    color: #2E2EFE;
+}
+
+/* **************************************************** */
+/* Header styles                                        */
+/* **************************************************** */
+
+#header{
+    padding: 60px 0px 40px 0px;
+    background-color: #333333;
+    text-align: center;
+}
+
+#header h1{
+    letter-spacing: 0.1em;
+    font-size: 44px;
+    color: #ffffff;
+}
+#header p{
+    letter-spacing: 00.1em;
+    color: #ffffff;
+}
+
+/* **************************************************** */
+/* Banner styles                                        */
+/* **************************************************** */
+
+#banner{
+    height: 300px;
+}
+
+#banner img{
+    width: 100%;
+    height: 300px;
+}
+
+/* **************************************************** */
+/* page styles                                          */
+/* **************************************************** */
+
+#page{
+    min-height: 400px;
+    padding: 20px;
+}
+
+#page h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color: #16a085;
+}
+
+/* CONTENT */
+
+#content{
+    float: left;
+    width: 70%;
+}
+
+/* SIDEBAR */
+
+#sidebar{
+    float: right;
+    width: 25%;
+}
+
+/* Lists */
+
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li{
+    border-top: solid 1px #e5e5e5;
+    padding: 14px 0px;
+}
+
+/* **************************************************** */
+/* Footer styles                                        */
+/* **************************************************** */
+
+#footer{
+    width: 100%;
+    height: 340px;
+    background-color: #1e1b1a;
+    padding-top: 25px;
+    padding-left: 22px;
+    clear: both;
+
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#footer p{
+    color: #adadad;
+}
+
+#footer a{
+    color: #adadad;
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box2{
+    float: left;
+    width: 30%;
+    padding-left: 30px;
+}
+
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+/* **************************************************** */
+/* Copyright style                                      */
+/* **************************************************** */
+
+#copyright{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color: #CECEF6;
+    padding-top: 55px;
+    clear: both;
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/* **************************************************** */
+/* Pics style                                           */
+/* **************************************************** */
+
+#pic img{
+    width: 250px;
+    margin: 12px;
+
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#pic img:hover{
+	-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+ }
+
+
+
+
